@@ -1,0 +1,117 @@
+*, *::after, *,::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* code start here */
+body{
+    background-color: whitesmoke;
+}
+main{
+    width: 80%;
+    height: 100vh;
+    margin: 100px auto;
+
+    display: flex;
+    
+}
+caption{
+    background-color: darkgreen;
+    border-radius: 15px 15px 0 0;
+    display: none;
+
+    position: absolute;
+    width: calc(100% - 2px);
+    top: 0;
+   
+}
+
+table{
+    width: calc(33% - 40px);
+    background-color: transparent;
+    margin: 0 20px;
+    border-collapse: collapse;
+    transition: all 1s;
+    box-shadow: 6px 6px 10px black, -4px -4px 10px black;
+    border-radius: 15px;
+}
+th{
+    background-color: green;
+    color: white;
+    padding: 30px 0;
+    border-radius: 15px 15px 0 0;
+}
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 20px;
+}
+p{
+    font-size: .8rem;
+    text-align: center;
+    font-weight: 100;
+}
+
+/* table body */
+td{
+    background-color: white;
+}
+table .hi{
+    border-radius:0 0 15px 15px;
+}
+ul{
+    list-style: none;
+    font-size: .8rem;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px gray solid;
+}
+ul li{
+    padding: 10px 0;
+}
+/* table body2 */
+.container{
+    padding: 20px;
+    text-align: center;
+}
+h3 {
+    font-size: 2rem;
+}
+.container p{
+    padding: 0 0 20px;
+}
+.container a{
+    border: 1px solid green;
+    font-size: 1.5rem;
+    margin: 30px;
+    padding: 5px 12px;
+    border-radius: 5px;
+    color: green;
+}
+.container p:nth-of-type(2){
+    margin-top: 20px;
+}
+.last li{
+    padding: 6px 0;
+}
+
+/* hover */
+
+
+
+table:hover{
+    transform: scale(1.2);
+}
+table:hover caption{
+    display: block;
+}
+.container a:hover{
+    background-color: green;
+    color: white;
+}
+
+
+
+
